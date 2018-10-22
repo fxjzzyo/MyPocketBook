@@ -242,7 +242,7 @@
     <string name="user_name_exist">用户名已存在</string>
     <string name="user_email_exist">邮箱已存在</string>
     <string name="user_mobile_exist">
-        这台手机已经注册过CoCoin账号啦！\n
+        这台手机已经注册过MyPocket账号啦！\n
         请用原来的账号登录吧~
     </string>
     <string name="network_disconnection">网络连接断开</string>
@@ -278,7 +278,7 @@
 
     <string name="first_time_set_password">
         &#160;Hi！\n
-        欢迎使用CoCoin！\n
+        欢迎使用MyPocket！\n
         为了您的账本安全，\n
         我想你需要一个密码
     </string>
@@ -460,7 +460,7 @@
 
     <string name="help_cocoin_content_1"> ● 我的记账本，一款多视图记账APP</string>
     <string name="help_cocoin_content_2">
-        ● 您可以使用CoCoin轻松记账，并使用密码来保护您的账本。
+        ● 您可以使用MyPocket轻松记账，并使用密码来保护您的账本。
         账本密码会在您第一次使用“我的记账本”的时候被设置。
         在记账的时候，您可以通过左滑显示数字框来为您的记录增加备注。
         如果您需要查阅账本，可以通过下滑或点击标题栏来进入账本页面。

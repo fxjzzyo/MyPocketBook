@@ -12,17 +12,25 @@ android {
     buildToolsVersion "26.0.3"
 
     defaultConfig {
-        applicationId "com.nightonke.cocoin"
+        applicationId "com.pocket.book"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
-        versionName "1.2.0"
+        versionName "1.10"
         // when update version, don't forget change the application class and @string/app_splash_name
 
         renderscriptTargetApi 20
         renderscriptSupportModeEnabled true
         vectorDrawables.useSupportLibrary = true/*Vector Drawable兼容*/
         javaCompileOptions { annotationProcessorOptions { includeCompileClasspath = true } }
+
+        manifestPlaceholders = [
+                app_icon   : "@drawable/cocoin_logo",
+                appkey     : "b4da0005fd0fb87264ae3832"]
+
+        ndk {
+            abiFilters 'armeabi','armeabi-v7a','x86'
+        }
     }
     buildTypes {
         release {
@@ -36,7 +44,9 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
 
     //noinspection GradleCompatible
-    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile ('com.android.support:appcompat-v7:26.1.0'){
+        exclude module: 'support-v4'
+    }
 
     // animation
     compile 'com.nineoldandroids:library:2.4.0'
@@ -136,6 +146,14 @@ dependencies {
     compile ('com.github.ozodrukh:CircularReveal:1.3.1@aar') {
         transitive = true;
     }
+    compile files("src/main/jniLibs/android-async-http-1.4.8.jar")
+    compile files("src/main/jniLibs/android-mastersdk-1.25.jar")
+//    compile files("src/main/jniLibs/bugly_agent.jar")
+//    compile files("src/main/jniLibs/bugly_crash_release.jar")
+    compile files("src/main/jniLibs/jcore-android-1.2.0.jar")
+    compile files("src/main/jniLibs/jpush-android-3.1.2.jar")
+    compile files("src/main/jniLibs/org.apache.http.legacy.jar")
+    compile files("src/main/jniLibs/zxing.jar")
 
 }
 
