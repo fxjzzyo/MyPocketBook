@@ -1,5 +1,6 @@
 package com.pocket.saver.fragment;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -33,6 +34,7 @@ public class RecordCheckDialogFragment extends DialogFragment implements RecordC
     private Context mContext;
     private String title;
 
+    @SuppressLint("ValidFragment")
     public RecordCheckDialogFragment(Context context, List<CoCoinRecord> list, String title) {
         this.list = list;
         this.title = title;

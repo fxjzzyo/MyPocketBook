@@ -97,7 +97,7 @@ public class AccountBookTodayViewActivity extends AppCompatActivity {
     private MaterialRippleLayout sync;
     private MaterialRippleLayout settings;
     private MaterialRippleLayout help;
-    private MaterialRippleLayout feedback;
+//    private MaterialRippleLayout feedback;
     private MaterialRippleLayout about;
 
     private MaterialIconView syncIcon;
@@ -154,7 +154,7 @@ public class AccountBookTodayViewActivity extends AppCompatActivity {
         sync = (MaterialRippleLayout)mDrawer.findViewById(R.id.sync_layout);
         settings = (MaterialRippleLayout)mDrawer.findViewById(R.id.settings_layout);
         help = (MaterialRippleLayout)mDrawer.findViewById(R.id.help_layout);
-        feedback = (MaterialRippleLayout)mDrawer.findViewById(R.id.feedback_layout);
+//        feedback = (MaterialRippleLayout)mDrawer.findViewById(R.id.feedback_layout);
         about = (MaterialRippleLayout)mDrawer.findViewById(R.id.about_layout);
         syncIcon = (MaterialIconView)mDrawer.findViewById(R.id.sync_icon);
         setIconEnable(syncIcon, SettingManager.getInstance().getLoggenOn());
@@ -860,7 +860,7 @@ public class AccountBookTodayViewActivity extends AppCompatActivity {
         ((TextView)findViewById(R.id.sync_text)).setTypeface(CoCoinUtil.GetTypeface());
         ((TextView)findViewById(R.id.settings_text)).setTypeface(CoCoinUtil.GetTypeface());
         ((TextView)findViewById(R.id.help_text)).setTypeface(CoCoinUtil.GetTypeface());
-        ((TextView)findViewById(R.id.feedback_text)).setTypeface(CoCoinUtil.GetTypeface());
+//        ((TextView)findViewById(R.id.feedback_text)).setTypeface(CoCoinUtil.GetTypeface());
         ((TextView)findViewById(R.id.about_text)).setTypeface(CoCoinUtil.GetTypeface());
     }
 
@@ -914,12 +914,12 @@ public class AccountBookTodayViewActivity extends AppCompatActivity {
                 startActivity(new Intent(mContext, HelpActivity.class));
             }
         });
-        feedback.setOnClickListener(new View.OnClickListener() {
+       /* feedback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(mContext, FeedbackActivity.class));
             }
-        });
+        });*/
         about.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

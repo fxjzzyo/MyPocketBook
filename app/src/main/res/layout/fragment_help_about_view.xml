@@ -51,7 +51,7 @@
                         android:text="@string/help_about_content_0"
                         />
 
-                    <com.balysv.materialripple.MaterialRippleLayout
+                   <!-- <com.balysv.materialripple.MaterialRippleLayout
                         android:id="@+id/layout_1"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
@@ -91,7 +91,7 @@
 
                         </LinearLayout>
 
-                    </com.balysv.materialripple.MaterialRippleLayout>
+                    </com.balysv.materialripple.MaterialRippleLayout>-->
 
                     <com.balysv.materialripple.MaterialRippleLayout
                         android:id="@+id/layout_2"
@@ -135,7 +135,7 @@
 
                     </com.balysv.materialripple.MaterialRippleLayout>
 
-                    <com.balysv.materialripple.MaterialRippleLayout
+                   <!-- <com.balysv.materialripple.MaterialRippleLayout
                         android:id="@+id/layout_3"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
@@ -175,9 +175,9 @@
 
                         </LinearLayout>
 
-                    </com.balysv.materialripple.MaterialRippleLayout>
+                    </com.balysv.materialripple.MaterialRippleLayout>-->
 
-                    <com.balysv.materialripple.MaterialRippleLayout
+                    <!--<com.balysv.materialripple.MaterialRippleLayout
                         android:id="@+id/layout_4"
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
@@ -217,7 +217,7 @@
 
                         </LinearLayout>
 
-                    </com.balysv.materialripple.MaterialRippleLayout>
+                    </com.balysv.materialripple.MaterialRippleLayout>-->
 
                     <TextView
                         android:id="@+id/content_5"

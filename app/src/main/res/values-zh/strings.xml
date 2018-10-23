@@ -505,7 +505,7 @@
     </string>
     <string name="help_cocoin_content_11"> ● 感谢您使用“我的记账本”</string>
 
-    <string name="help_feedback_content_1"> ● 很高兴能收到您的反馈，如果您有非文本内容，可以发到我的电子邮箱：Nightonke@outlook.com.</string>
+    <string name="help_feedback_content_1"> ● 很高兴能收到您的反馈</string>
     <string name="help_feedback_content_2">让“我的记账本”变得更好</string>
     <string name="help_feedback_hint">您可以在此处编辑反馈</string>
     <string name="help_feedback_edit">编辑</string>
