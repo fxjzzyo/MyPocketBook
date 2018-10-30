@@ -1080,7 +1080,7 @@ public class CoCoinUtil {
     public static Double INPUT_MAX_EXPENSE = 99999d;
 
     public static String GetCurrentVersion() {
-        return "我的记账本 V 1.10";
+        return "财务记账 V 1.10";
     }
 
     public static String GetString(Context context, int i) {

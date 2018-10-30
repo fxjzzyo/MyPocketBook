@@ -659,7 +659,7 @@
                         android:paddingRight="10dp"
                         android:background="@null"
                         android:textSize="18sp"
-                        android:text="我的记账本"
+                        android:text="财务记账"
                         android:ellipsize="marquee"
                         android:singleLine="true"
                         />

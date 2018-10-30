@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="我的记账本"
+                android:text="财务记账"
                 android:textColor="#ffffff"
                 android:textSize="25sp"
                 />

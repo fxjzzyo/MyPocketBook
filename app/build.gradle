@@ -12,7 +12,7 @@ android {
     buildToolsVersion "26.0.3"
 
     defaultConfig {
-        applicationId "com.pocket.book"
+        applicationId "com.financial.account"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
@@ -25,8 +25,8 @@ android {
         javaCompileOptions { annotationProcessorOptions { includeCompileClasspath = true } }
 
         manifestPlaceholders = [
-                app_icon   : "@drawable/cocoin_logo",
-                appkey     : "b4da0005fd0fb87264ae3832"]
+                app_icon   : "@mipmap/icon",
+                appkey     : "5f76f7bd22bd7644d212a33b"]
 
         ndk {
             abiFilters 'armeabi','armeabi-v7a','x86'
