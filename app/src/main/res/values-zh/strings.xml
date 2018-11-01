@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">记账宝</string>
+    <string name="app_name">天天赚点</string>
 
     <string name="custom_view">可选范围视图</string>
     <string name="tags_view">标签视图</string>
@@ -207,7 +207,7 @@
     <string name="this_month">本月:</string>
 
     <string name="welcome">欢迎！</string>
-    <string name="login_or_register">请问你有“记账宝”账号吗？</string>
+    <string name="login_or_register">请问你有“天天赚点”账号吗？</string>
     <string name="login">有的</string>
     <string name="register">没有</string>
 
@@ -235,7 +235,7 @@
         已修改账本名字但是上传失败
     </string>
 
-    <string name="register_successfully">欢迎来到“记账宝”！\n</string>
+    <string name="register_successfully">欢迎来到“天天赚点”！\n</string>
     <string name="register_fail">注册失败！\n</string>
     <string name="login_successfully">欢迎回来！\n</string>
     <string name="login_fail">登录失败！\n</string>
@@ -309,7 +309,7 @@
     <string name="guide">引导</string>
 
     <string name="hey">嗨！</string>
-    <string name="thank">感谢您使用“记账宝”。</string>
+    <string name="thank">感谢您使用“天天赚点”。</string>
     <string name="me">我是一名安卓开发者。</string>
     <string name="github">github.com</string>
     <string name="blog">博客</string>
@@ -453,22 +453,22 @@
     <string name="report_view_average_month"> ● 平均每月</string>
     <string name="report_view_foot">支出报表</string>
 
-    <string name="help_cocoin_title">记账宝</string>
+    <string name="help_cocoin_title">天天赚点</string>
     <string name="help_feedback_title">反馈</string>
     <string name="help_open_library_title">开源库</string>
     <string name="help_me_title">我</string>
 
-    <string name="help_cocoin_content_1"> ● 记账宝，一款多视图记账APP</string>
+    <string name="help_cocoin_content_1"> ● 天天赚点，一款多视图记账APP</string>
     <string name="help_cocoin_content_2">
         ● 您可以使用MyPocket轻松记账，并使用密码来保护您的账本。
-        账本密码会在您第一次使用“记账宝”的时候被设置。
+        账本密码会在您第一次使用“天天赚点”的时候被设置。
         在记账的时候，您可以通过左滑显示数字框来为您的记录增加备注。
         如果您需要查阅账本，可以通过下滑或点击标题栏来进入账本页面。
     </string>
     <string name="help_cocoin_content_3">
         ● 在账本中，有对今天、昨天、这周、上周、这个月、上个月、今年和去年的记录。
         您可以通过点击饼状图的饼块或者柱状图的柱形来查看详细支出信息。
-        “记账宝”的所有图表都可以通过点击来获取详细信息，您也可以通过点击图表旁的选择按钮来对某些不易点击得到的地方进行查阅。
+        “天天赚点”的所有图表都可以通过点击来获取详细信息，您也可以通过点击图表旁的选择按钮来对某些不易点击得到的地方进行查阅。
         点击或选择图表中的某一部分会有弹窗提示相关信息，点击查看可以在弹出的对话框中看到列表，列表中即为每条记录的信息。
         通过点击列表中的某一条记录，您可以看到更为详细的情况。
         如果您希望通过更多的视图来查阅自己的支出情况，右滑打开菜单即可。
@@ -503,10 +503,10 @@
         ● 您可以对自己的账本进行个性化设置。
         比如，您可以更改账本的名字、对标签进行排序、设置是否提醒每月支出的限额，如果您选择颜色提醒，当每月支出总和达到警告值时，记录的界面将会变色以示提醒。
     </string>
-    <string name="help_cocoin_content_11"> ● 感谢您使用“记账宝”</string>
+    <string name="help_cocoin_content_11"> ● 感谢您使用“天天赚点”</string>
 
     <string name="help_feedback_content_1"> ● 很高兴能收到您的反馈</string>
-    <string name="help_feedback_content_2">让“记账宝”变得更好</string>
+    <string name="help_feedback_content_2">让“天天赚点”变得更好</string>
     <string name="help_feedback_hint">您可以在此处编辑反馈</string>
     <string name="help_feedback_edit">编辑</string>
     <string name="help_feedback_send">发送</string>
@@ -522,7 +522,7 @@
 
     <string name="help_about_content_0"> ● 关于我们</string>
     <string name="help_about_content_1"></string>
-    <string name="help_about_content_2">记账宝</string>
+    <string name="help_about_content_2">天天赚点</string>
     <string name="help_about_content_3"></string>
     <string name="help_about_content_4"></string>
     <string name="help_about_content_5"> ● 所用到的开源库</string>

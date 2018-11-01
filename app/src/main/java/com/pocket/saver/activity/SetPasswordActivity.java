@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.annotation.RequiresApi;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -20,6 +21,7 @@ import android.view.animation.Interpolator;
 import android.widget.AdapterView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.github.johnpersano.supertoasts.SuperToast;
 import com.pocket.saver.R;
@@ -66,6 +68,7 @@ public class SetPasswordActivity extends AppCompatActivity {
 
     private TextView title;
 
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -266,44 +269,45 @@ public class SetPasswordActivity extends AppCompatActivity {
     private void showToast(int toastType) {
         SuperToast.cancelAllSuperToasts();
 
-        superToast.setAnimations(CoCoinUtil.TOAST_ANIMATION);
-        superToast.setDuration(SuperToast.Duration.SHORT);
-        superToast.setTextColor(Color.parseColor("#ffffff"));
-        superToast.setTextSize(SuperToast.TextSize.SMALL);
+//        superToast.setAnimations(CoCoinUtil.TOAST_ANIMATION);
+//        superToast.setDuration(SuperToast.Duration.SHORT);
+//        superToast.setTextColor(Color.parseColor("#ffffff"));
+//        superToast.setTextSize(SuperToast.TextSize.SMALL);
 
         switch (toastType) {
             // old password wrong
             case 0:
+                Toast.makeText(this,R.string.toast_password_wrong,Toast.LENGTH_SHORT).show();
 
-                superToast.setText(
-                        mContext.getResources().getString(R.string.toast_password_wrong));
-                superToast.setBackground(SuperToast.Background.RED);
-                superToast.getTextView().setTypeface(CoCoinUtil.typefaceLatoLight);
+//                superToast.setText(
+//                        mContext.getResources().getString(R.string.toast_password_wrong));
+//                superToast.setBackground(SuperToast.Background.RED);
+//                superToast.getTextView().setTypeface(CoCoinUtil.typefaceLatoLight);
 
                 break;
             // password is different
             case 1:
-
-                superToast.setText(
-                        mContext.getResources().getString(R.string.different_password));
-                superToast.setBackground(SuperToast.Background.RED);
-                superToast.getTextView().setTypeface(CoCoinUtil.typefaceLatoLight);
+                Toast.makeText(this,R.string.different_password,Toast.LENGTH_SHORT).show();
+//                superToast.setText(
+//                        mContext.getResources().getString(R.string.different_password));
+//                superToast.setBackground(SuperToast.Background.RED);
+//                superToast.getTextView().setTypeface(CoCoinUtil.typefaceLatoLight);
 
                 break;
             // success
             case 2:
-
-                superToast.setText(
-                        mContext.getResources().getString(R.string.set_password_successfully));
-                superToast.setBackground(SuperToast.Background.GREEN);
-                superToast.getTextView().setTypeface(CoCoinUtil.typefaceLatoLight);
+                Toast.makeText(this,R.string.set_password_successfully,Toast.LENGTH_SHORT).show();
+//                superToast.setText(
+//                        mContext.getResources().getString(R.string.set_password_successfully));
+//                superToast.setBackground(SuperToast.Background.GREEN);
+//                superToast.getTextView().setTypeface(CoCoinUtil.typefaceLatoLight);
 
                 break;
             default:
                 break;
         }
 
-        superToast.show();
+//        superToast.show();
     }
 
     @Override
