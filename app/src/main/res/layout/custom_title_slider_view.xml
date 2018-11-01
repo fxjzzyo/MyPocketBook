@@ -19,7 +19,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:gravity="center"
-        android:text="财务记账"
+        android:text="记账宝"
         android:textColor="#ffffff"
         android:textSize="25sp"
         />

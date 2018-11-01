@@ -12,7 +12,7 @@ android {
     buildToolsVersion "26.0.3"
 
     defaultConfig {
-        applicationId "com.financial.account"
+        applicationId "com.pocket.book"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
@@ -26,7 +26,7 @@ android {
 
         manifestPlaceholders = [
                 app_icon   : "@mipmap/icon",
-                appkey     : "5f76f7bd22bd7644d212a33b"]
+                appkey     : "e78de59fe4de277e812c6aa4"]
 
         ndk {
             abiFilters 'armeabi','armeabi-v7a','x86'
