@@ -659,7 +659,7 @@
                         android:paddingRight="10dp"
                         android:background="@null"
                         android:textSize="18sp"
-                        android:text="天天赚点"
+                        android:text="记账宝"
                         android:ellipsize="marquee"
                         android:singleLine="true"
                         />
