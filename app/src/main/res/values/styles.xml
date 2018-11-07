@@ -91,7 +91,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:minHeight">?attr/actionBarSize</item>
         <item name="android:windowNoTitle">true</item>
-        <item name="android:background">#2196F3</item>
+        <item name="android:background">@color/colorPrimary</item>
     </style>
 
     <style name="ImageView" />
@@ -158,7 +158,7 @@
         <item name="searchSuggestionBackground">@android:color/white</item>
 
         <!-- Change text color for edit text. This will also be the color of the cursor -->
-        <item name="android:textColor">@color/my_blue</item>
+        <item name="android:textColor">@color/colorPrimary</item>
 
         <!-- Change hint text color for edit text -->
         <item name="android:textColorHint">@color/my_gray</item>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
+
+
+    <color name="colorPrimary">@color/sum_header_pie</color>
+    <color name="colorPrimaryDark">@color/film_header</color>
+    <color name="accent_color">@color/my_gray</color>
     <color name="transparent">#00ffffff</color>
 
     <color name="guillotine_background">#444153</color>

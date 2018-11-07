@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">记账宝</string>
-    <string name="app_splash_name">记账宝 V1.10</string>
+    <string name="app_name">赚钱宝</string>
+    <string name="app_splash_name">赚钱宝 V1.10</string>
     <string name="app_info">
-        记账宝
+        赚钱宝
     </string>
 
     <string name="hello_world">Hello world!</string>
@@ -220,7 +220,7 @@
     <string name="this_month">This month:</string>
 
     <string name="welcome">Welcome!</string>
-    <string name="login_or_register">Do you have a 记账宝 account?</string>
+    <string name="login_or_register">Do you have a 赚钱宝 account?</string>
     <string name="login">Sure</string>
     <string name="register">Not yet</string>
 
@@ -248,7 +248,7 @@
         Change name but update to server fail
     </string>
 
-    <string name="register_successfully">Welcome to 记账宝!\n</string>
+    <string name="register_successfully">Welcome to 赚钱宝!\n</string>
     <string name="register_fail">Register fail!\n</string>
     <string name="login_successfully">Welcome back!\n</string>
     <string name="login_fail">Login fail!\n</string>
@@ -268,7 +268,7 @@
 
     <string name="sync_dialog_title">Sync?</string>
     <string name="sync_dialog_content">
-        You have already synchronized your settings to 记账宝 server.
+        You have already synchronized your settings to 赚钱宝 server.
         Would you want to synchronize your old settings to local?
     </string>
     <string name="sync_dialog_sync_to_local">Sync old settings to local</string>
@@ -291,7 +291,7 @@
     <string name="ok">OK!</string>
 
     <string name="first_time_set_password">
-        Hey!\nWelcome to use 记账宝!\nTo protect your account book,\n
+        Hey!\nWelcome to use 赚钱宝!\nTo protect your account book,\n
         you need a password to do so.
     </string>
     <string name="first_time_set_password_again">
@@ -321,7 +321,7 @@
     <string name="guide">Guide</string>
 
     <string name="hey">你好!</string>
-    <string name="thank">感谢使用记账宝.</string>
+    <string name="thank">感谢使用赚钱宝.</string>
     <string name="me">I\'m an android developer.</string>
     <string name="github">github.com</string>
     <string name="blog">Blog: blog.csdn.net</string>
